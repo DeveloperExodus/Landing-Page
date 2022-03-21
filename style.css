@@ -1,0 +1,274 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+
+.underHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    gap: 80px;
+
+}
+
+.underImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 20%;
+}
+.underImg {
+    padding-inline-end: 300px;
+    height: 300px;
+    width: 700px;
+}
+
+.heroColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 50%;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+}
+
+.button button {
+    padding: 10px;
+    padding-right: 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.heroText {
+    color: white;
+    font-weight: 700;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 40px;
+}
+
+.heroTextp {
+    color: white;
+}
+
+.LogoDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.Logo {
+    height: 200px;
+    width: 200px;
+}
+
+.right-links {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-inline-end: 200px;
+    gap: 30px;
+}
+
+.right-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+
+.midImages {
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}
+
+.Images {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.midImgText {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-block-start: 30px;
+    
+
+}
+
+
+/* adding borders if you forget what to do lol */
+.Images img {
+    border: solid 5px red;
+    border-radius: 10px;
+    height: 175px;
+    width: 300px;
+}
+
+
+
+.lowermidtext-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    gap: 30px;
+}
+
+.lowerMidText {
+    font-size: 40px;
+    font-family: 'Cantarell', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-inline-end: 420px;
+    height: 50%;
+    width: 50%;
+
+}
+
+.person {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    width: 30%;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+.beforefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40%;
+    width: 100%;
+}
+
+
+.text-container {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    padding-block-start: 35px;
+    height: 50%;
+    width: 50%;
+}
+
+.action-description {
+    padding-inline-start: 00px;
+}
+
+.call-action {
+    background-color: gray;
+    border-radius: 10px;
+    height: 40%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Cantarell', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.button-container {
+    display: flex;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.button-container button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.footer-text {
+    gap: 20px;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+.giticon {
+    height: 40x;
+    width: 40px;
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    height: 100px;
+    width: 100%;
+}
